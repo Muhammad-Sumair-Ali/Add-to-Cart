@@ -1,0 +1,104 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  color: white;
+}
+.container{
+  width: 100%;
+  display: flex;
+}
+.cards{
+  border: 5px solid green;
+  width:60%;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: scroll;
+}
+.cart{
+  border: 5px solid blue;
+  width: 40%;
+}
+.cardpara{
+   padding: 5px;
+   padding-left: 9px;
+}
+.card{
+  border: 3px solid grey;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.card button {
+ width: 90%;
+ padding: 10px;
+ background: red;
+ border-radius: 8px;
+ border: none;
+ margin: auto;
+ color: white;
+}
+.card button:hover{
+  color: black;
+  background: grey;
+}
+
+/* cards images  */
+.img1{
+   width: 100%;
+   height: 200px;
+   background-image: url(images/Aladdin.jpg);
+   background-size: cover;
+
+}
+.img2{
+   width: 100%;
+   height: 200px;
+   background-image: url(images/raazi.jpg);
+   background-size: cover;
+}
+.img3{
+   width: 100%;
+   height: 200px;
+   background-image: url(images/jawani.jpg);
+   background-size: cover;
+}
+.img4{
+   width: 100%;
+   height: 200px;
+   background-image: url(images/rrr.jpg);
+   background-size: cover;
+}
+.img5{
+   
+   width: 100%;
+   height: 200px;
+   background-image: url(images/impossible.jpg);
+   background-size: cover;
+
+}
+.img6{
+   width: 100%;
+   height: 200px;
+   background-image: url(images/ins.jpg);
+   background-size: cover;
+}
+.img7{
+   width: 100%;
+   height: 200px;
+   background-image: url(images/panther.jpg);
+   background-size: cover;
+}
+.img8{
+   width: 100%;
+   height: 200px;
+   background-image: url(images/ant.jpg);
+   background-size: cover;
+}
